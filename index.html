@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> index </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            margin: 200px auto;
+
+            width: 900px;
+            height: 350px;
+            background: #F1F1F1;
+            position: relative;
+        }
+
+        /* 큰 제목 */
+        div .a1 {
+            color: #000;
+            color: #000;
+            font-family: Noto Sans KR;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -1px;
+            position: absolute;
+            left: 57%;
+            top: 25%;
+            z-index: 5;
+        }
+
+        /* 부제 */
+        div .a2 {
+            color: #000;
+            font-family: Noto Sans KR;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.44px;
+            position: absolute;
+            left: 57%;
+            top: 45%;
+            z-index: 4;
+        }
+
+        /* 파란색원 */
+        div .a4 img {
+            width: 307px;
+            position: absolute;
+            left: 58px;
+            bottom: 0px;
+            z-index: 4;
+        }
+
+        /* 말 */
+        div .a5 {
+            width: 190px;
+            height: 267px;
+            position: absolute;
+            left: 50px;
+            bottom: 40px;
+            z-index: 5;
+
+        }
+
+        /* 랏소 */
+        div .a6 img {
+            width: 227px;
+            height: 227px;
+            position: absolute;
+            left: 150px;
+            bottom: 40px;
+            z-index: 6;
+        }
+
+        /* 50% OFF */
+        div .a7 {
+            display: block;
+            width: 180px;
+            height: 55.61px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+            background: #558063;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: -0.25px;
+            position: absolute;
+            left: 57%;
+            top: 57%;
+        }
+
+        /* 볼 */
+        div .a8 img {
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            left: 300px;
+            bottom: 40px;
+            z-index: 7;
+            animation: mymove 2s infinite;
+        }
+
+        @keyframes mymove {
+            0% {
+                top: 170px;
+            }
+
+            25% {
+                top: 250px;
+            }
+
+            75% {
+                top: 200px
+            }
+
+            100% {
+                top: 250px;
+            }
+        }
+
+        p.b1 {
+            position: absolute;
+            left: 78%;
+            top: 3%;
+        }
+
+        p.b2 {
+            position: absolute;
+            left: 63%;
+            top: 19%;
+        }
+
+        p.b3 {
+            position: absolute;
+            left: 81%;
+            top: 60%;
+        }
+
+        p.b4 {
+            position: absolute;
+            left: 60%;
+            top: 81%;
+        }
+
+        p.b5 {
+            position: absolute;
+            left: 65%;
+            top: 87%;
+        }
+
+        p.b6 {
+            position: absolute;
+            left: 86%;
+            top: 87%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- p.a$*14 -->
+        <p class="a1">Kids Toys Sale</p>
+        <p class="a2">Checkout more on our Store.</p>
+        <p class="a3"><img src="./images/Vector.png" alt="하늘색원"></p>
+        <p class="a4"><img src="./images/Vector2.png" alt="파란색원"></p>
+        <p class="a5"><img src="./images/horse.png" alt="말"></p>
+        <p class="a6"><img src="./images/lotsso.png" alt="곰"></p>
+        <p class="a7">50% OFF</p>
+        <p class="a8">
+            <a href="https://brand.naver.com/disney" target="_blank">
+                <img src="./images/ball.png" alt="볼">
+            </a>
+        </p>
+        <p class="b1"> <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <path
+                    d="M12.1867 0.219508L13.0962 8.15956L20.9287 9.7482L13.6583 13.0668L14.5678 21.0068L9.16496 15.1178L1.89457 18.4364L5.82582 11.4781L0.422995 5.58908L8.25548 7.17772L12.1867 0.219508Z"
+                    fill="#7281CD" />
+            </svg></p>
+        <p class="b2"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M11 19V13H5V11H11V5H13V11H19V13H13V19H11Z" fill="#70B9CA" />
+            </svg></p>
+        <p class="b3"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                <path
+                    d="M15.7781 22.0139L13.7916 21.0546C6.74214 17.6673 2.0859 15.4235 0.878709 11.3577C-0.11074 8.02525 1.72744 4.65124 5.04912 3.66499C6.92565 3.10783 8.98606 3.44663 10.5683 4.46726C11.3371 2.74858 12.8788 1.34027 14.7553 0.783101C18.077 -0.203147 21.4586 1.62105 22.448 4.95351C23.6552 9.01933 20.9779 13.4405 16.9192 20.126L15.7781 22.0139Z"
+                    fill="#FF0A0A" />
+            </svg></p>
+        <p class="b4"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                <path
+                    d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
+                    fill="#71BBCC" />
+            </svg></p>
+        <p class="b5"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                <path
+                    d="M8.83494 22.482L7.9102 21.0984C4.62177 16.1988 2.45227 12.9586 3.27339 9.95276C3.94641 7.48908 6.49451 6.12025 9.0695 6.82367C10.5242 7.22106 11.744 8.24828 12.3786 9.5098C13.5665 8.74615 15.1391 8.48174 16.5938 8.87912C19.1688 9.58254 20.6671 12.0567 19.9941 14.5204C19.1729 17.5263 15.6574 19.2134 10.3347 21.7607L8.83494 22.482Z"
+                    fill="#FF0A0A" />
+            </svg></p>
+        <p class="b6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M11 19V13H5V11H11V5H13V11H19V13H13V19H11Z" fill="#1400FF" />
+            </svg></p>
+
+
+
+    </div>
+</body>
+
+</html>
